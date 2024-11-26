@@ -4,7 +4,12 @@ export default {
 	theme: {
 		extend: {},
 		fontFamily:{
-			'main': ['Poppins']
+			heartquake: ['Heartquake'],
+			cooper: ['CooperBlack']
+		},
+		colors:{
+			mainBlack : "#0D0D0D",
+			mainYellow: '#F2CA50'
 		}
 		},
 	plugins: [],

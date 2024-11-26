@@ -1,0 +1,25 @@
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #f2ca50;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+@font-face {
+  font-family: "Heartquake";
+  src: url("/fonts/heartquake.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CooperBlack";
+  src: url("/fonts/CooperBlack.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+}
