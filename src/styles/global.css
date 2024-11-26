@@ -1,12 +1,12 @@
 ::-webkit-scrollbar {
-  width: 11px;
-  height: 11px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #f2ca50;
-  border: 2px solid transparent;
+  border: 0px solid transparent;
   background-clip: content-box;
 }
 
@@ -19,7 +19,18 @@
 
 @font-face {
   font-family: "CooperBlack";
-  src: url("/fonts/CooperBlack.eot") format("eot");
+  src:
+    url("/fonts/CooperBlack.otf") format("otf"),
+    url("/fonts/Cooper-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CaviarDreams";
+  src:
+    url("/fonts/CaviarDreams.ttf") format("ttf"),
+    url("/fonts/CaviarDreams.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }

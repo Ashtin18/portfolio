@@ -5,11 +5,13 @@ export default {
 		extend: {},
 		fontFamily:{
 			heartquake: ['Heartquake'],
-			cooper: ['CooperBlack']
+			cooperBlack: ['CooperBlack'],
+			caviarDreams: ['CaviarDreams']
 		},
 		colors:{
 			mainBlack : "#0D0D0D",
-			mainYellow: '#F2CA50'
+			mainYellow: '#F2CA50',
+			mainWhite: '#D9D9D9'
 		}
 		},
 	plugins: [],
